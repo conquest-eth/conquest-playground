@@ -1,0 +1,2 @@
+import{w as c}from"./wallet-c826be1b.js";import{l as i}from"./account-c0a26acd.js";import{aK as p}from"./vendor-e78c39f1.js";import{s as m}from"./optimisticSpace-8b3fc51e.js";import{s as f}from"./spaceInfo-b394211b.js";const j=p([m],([n])=>{var s,a;const t=(a=(s=n.queryState)==null?void 0:s.data)==null?void 0:a.planets;return t?t.filter(o=>{var e,r;return((e=o.owner)==null?void 0:e.toLowerCase())===((r=c.address)==null?void 0:r.toLowerCase())}).map(o=>{const e=i(o.id);return f.getPlanetInfo(e.x,e.y)}):[]});export{j as m};
+//# sourceMappingURL=myplanets-2a339ebc.js.map

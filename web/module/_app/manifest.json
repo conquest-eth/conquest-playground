@@ -1,0 +1,787 @@
+{
+  ".svelte-kit/build/runtime/internal/start.js": {
+    "file": "start-ff67b3b6.js",
+    "src": ".svelte-kit/build/runtime/internal/start.js",
+    "isEntry": true,
+    "imports": [
+      "_vendor-e78c39f1.js",
+      "_paths-28a87002.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      ".svelte-kit/build/components/error.svelte",
+      "src/routes/index.svelte",
+      "src/routes/agent-service.svelte",
+      "src/routes/withdrawals.svelte",
+      "src/routes/highscores.svelte",
+      "src/routes/alliances.svelte",
+      "src/routes/freetoken.svelte",
+      "src/routes/external/basic-alliances.svelte",
+      "src/routes/qr_verso.svelte",
+      "src/routes/settings.svelte",
+      "src/routes/cashout.svelte",
+      "src/routes/plugins.svelte",
+      "src/routes/recover.svelte",
+      "src/routes/debug.svelte",
+      "src/routes/stats.svelte",
+      "src/routes/help.svelte",
+      "src/routes/logs.svelte",
+      "src/routes/qr.svelte"
+    ],
+    "css": [
+      "assets/start-dcc79729.css"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-f2269d39.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e78c39f1.js",
+      "_paths-28a87002.js",
+      "_wallet-c826be1b.js",
+      "_account-c0a26acd.js",
+      "_config-af7f3a10.js",
+      "_url-09d70f02.js",
+      "_logo-8502b062.js",
+      "_stores-2f0e30ab.js",
+      "_contracts-69d01f63.js",
+      "_privateWallet-7a0cfca0.js",
+      "_base-652be6d9.js"
+    ],
+    "css": [
+      "assets/pages/__layout.svelte-471e83fe.css",
+      "assets/Loading.svelte_svelte_type_style_lang-79ecefa5.css"
+    ]
+  },
+  ".svelte-kit/build/components/error.svelte": {
+    "file": "error.svelte-2386c539.js",
+    "src": ".svelte-kit/build/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e78c39f1.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-9064e9bd.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e78c39f1.js",
+      "_myplanets-2a339ebc.js",
+      "_config-af7f3a10.js",
+      "_WalletAccess-ec429ef9.js",
+      "_spaceInfo-b394211b.js",
+      "_base-652be6d9.js",
+      "_tokenClaim-d54d7ab7.js",
+      "_planets-78a3d361.js",
+      "_paths-28a87002.js",
+      "_wallet-c826be1b.js",
+      "_playersQuery-3a795d59.js",
+      "_privateWallet-7a0cfca0.js",
+      "_fleets-86e67def.js",
+      "_optimisticSpace-8b3fc51e.js",
+      "_ConnectPanel-c0ecdc11.js",
+      "_account-c0a26acd.js",
+      "_myprofile-37a6a38f.js",
+      "_PlayCoin-69d24b1d.js",
+      "_MessageFlow-30f15648.js",
+      "_Help-b968899e.js",
+      "_PanelButton-b24a8fdb.js",
+      "_Blockie-6a051512.js",
+      "_Copiable-f9ca3aee.js",
+      "_Modal-a8884379.js",
+      "_token-c96bed7f.js",
+      "_NavButton-b22b61c0.js",
+      "_contracts-69d01f63.js",
+      "_url-09d70f02.js",
+      "_Coord-ca78105f.js",
+      "_EventDetails-d65d00d0.js",
+      "_logo-8502b062.js",
+      "_stores-2f0e30ab.js",
+      "_plugins-94e9a3e2.js",
+      "_subgraph-aa394bde.js",
+      "_graphql-582eebcc.js"
+    ],
+    "assets": [
+      "assets/planets-cbf882b4.png",
+      "assets/Red3-6e966784.png"
+    ]
+  },
+  "src/routes/agent-service.svelte": {
+    "file": "pages/agent-service.svelte-a410ac3f.js",
+    "src": "src/routes/agent-service.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e78c39f1.js",
+      "_PanelButton-b24a8fdb.js",
+      "_NavButton-b22b61c0.js",
+      "_WalletAccess-ec429ef9.js",
+      "_wallet-c826be1b.js",
+      "_Help-b968899e.js",
+      "_account-c0a26acd.js",
+      "_fleets-86e67def.js",
+      "_spaceInfo-b394211b.js",
+      "_privateWallet-7a0cfca0.js",
+      "_Coord-ca78105f.js",
+      "_paths-28a87002.js",
+      "_config-af7f3a10.js",
+      "_base-652be6d9.js",
+      "_Modal-a8884379.js",
+      "_contracts-69d01f63.js",
+      "_optimisticSpace-8b3fc51e.js",
+      "_subgraph-aa394bde.js",
+      "_graphql-582eebcc.js",
+      "_url-09d70f02.js",
+      "_Copiable-f9ca3aee.js"
+    ]
+  },
+  "src/routes/withdrawals.svelte": {
+    "file": "pages/withdrawals.svelte-b3d93a4b.js",
+    "src": "src/routes/withdrawals.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e78c39f1.js",
+      "_PanelButton-b24a8fdb.js",
+      "_NavButton-b22b61c0.js",
+      "_WalletAccess-ec429ef9.js",
+      "_wallet-c826be1b.js",
+      "_base-652be6d9.js",
+      "_subgraph-aa394bde.js",
+      "_graphql-582eebcc.js",
+      "_account-c0a26acd.js",
+      "_contracts-69d01f63.js",
+      "_paths-28a87002.js",
+      "_privateWallet-7a0cfca0.js",
+      "_config-af7f3a10.js",
+      "_Modal-a8884379.js"
+    ]
+  },
+  "src/routes/highscores.svelte": {
+    "file": "pages/highscores.svelte-415f2e11.js",
+    "src": "src/routes/highscores.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e78c39f1.js",
+      "_paths-28a87002.js",
+      "_wallet-c826be1b.js",
+      "_Blockie-6a051512.js",
+      "_NavButton-b22b61c0.js",
+      "_PlayCoin-69d24b1d.js",
+      "_base-652be6d9.js",
+      "_config-af7f3a10.js",
+      "_subgraph-aa394bde.js",
+      "_contracts-69d01f63.js",
+      "_Copiable-f9ca3aee.js"
+    ]
+  },
+  "src/routes/alliances.svelte": {
+    "file": "pages/alliances.svelte-eb3f7bb6.js",
+    "src": "src/routes/alliances.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e78c39f1.js",
+      "_paths-28a87002.js",
+      "_Blockie-6a051512.js",
+      "_NavButton-b22b61c0.js",
+      "_playersQuery-3a795d59.js",
+      "_config-af7f3a10.js",
+      "_MessageFlow-30f15648.js",
+      "_wallet-c826be1b.js",
+      "_Copiable-f9ca3aee.js",
+      "_subgraph-aa394bde.js",
+      "_graphql-582eebcc.js",
+      "_base-652be6d9.js",
+      "_account-c0a26acd.js",
+      "_privateWallet-7a0cfca0.js",
+      "_contracts-69d01f63.js",
+      "_Modal-a8884379.js",
+      "_PanelButton-b24a8fdb.js"
+    ],
+    "css": [
+      "assets/Loading.svelte_svelte_type_style_lang-79ecefa5.css"
+    ]
+  },
+  "src/routes/freetoken.svelte": {
+    "file": "pages/freetoken.svelte-aa7a8ab3.js",
+    "src": "src/routes/freetoken.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e78c39f1.js",
+      "_PanelButton-b24a8fdb.js",
+      "_NavButton-b22b61c0.js",
+      "_WalletAccess-ec429ef9.js",
+      "_wallet-c826be1b.js",
+      "_paths-28a87002.js",
+      "_privateWallet-7a0cfca0.js",
+      "_contracts-69d01f63.js",
+      "_config-af7f3a10.js",
+      "_Modal-a8884379.js"
+    ]
+  },
+  "src/routes/external/basic-alliances.svelte": {
+    "file": "pages/external/basic-alliances.svelte-cbff5d3b.js",
+    "src": "src/routes/external/basic-alliances.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e78c39f1.js",
+      "_PanelButton-b24a8fdb.js",
+      "_config-af7f3a10.js",
+      "_Blockie-6a051512.js",
+      "_WalletAccess-ec429ef9.js",
+      "_wallet-c826be1b.js",
+      "_contracts-69d01f63.js",
+      "_privateWallet-7a0cfca0.js",
+      "_MessageFlow-30f15648.js",
+      "_myplanets-2a339ebc.js",
+      "_spaceInfo-b394211b.js",
+      "_tokenClaim-d54d7ab7.js",
+      "_planets-78a3d361.js",
+      "_playersQuery-3a795d59.js",
+      "_fleets-86e67def.js",
+      "_optimisticSpace-8b3fc51e.js",
+      "_token-c96bed7f.js",
+      "_account-c0a26acd.js",
+      "_myprofile-37a6a38f.js",
+      "_logo-8502b062.js",
+      "_plugins-94e9a3e2.js",
+      "_Copiable-f9ca3aee.js",
+      "_NavButton-b22b61c0.js",
+      "_Modal-a8884379.js",
+      "_paths-28a87002.js",
+      "_base-652be6d9.js",
+      "_subgraph-aa394bde.js",
+      "_graphql-582eebcc.js"
+    ]
+  },
+  "src/routes/qr_verso.svelte": {
+    "file": "pages/qr_verso.svelte-0cea02b9.js",
+    "src": "src/routes/qr_verso.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e78c39f1.js",
+      "_qrs-ad47a527.js"
+    ],
+    "css": [
+      "assets/pages/qr_verso.svelte-4ee12c09.css"
+    ]
+  },
+  "src/routes/settings.svelte": {
+    "file": "pages/settings.svelte-c59e6b32.js",
+    "src": "src/routes/settings.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e78c39f1.js",
+      "_NavButton-b22b61c0.js",
+      "_paths-28a87002.js",
+      "_myprofile-37a6a38f.js",
+      "_WalletAccess-ec429ef9.js",
+      "_PanelButton-b24a8fdb.js",
+      "_privateWallet-7a0cfca0.js",
+      "_base-652be6d9.js",
+      "_wallet-c826be1b.js",
+      "_contracts-69d01f63.js",
+      "_config-af7f3a10.js",
+      "_account-c0a26acd.js",
+      "_spaceInfo-b394211b.js",
+      "_token-c96bed7f.js",
+      "_optimisticSpace-8b3fc51e.js",
+      "_subgraph-aa394bde.js",
+      "_graphql-582eebcc.js",
+      "_Modal-a8884379.js"
+    ]
+  },
+  "src/routes/cashout.svelte": {
+    "file": "pages/cashout.svelte-4ff0c580.js",
+    "src": "src/routes/cashout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e78c39f1.js",
+      "_PanelButton-b24a8fdb.js",
+      "_NavButton-b22b61c0.js",
+      "_WalletAccess-ec429ef9.js",
+      "_wallet-c826be1b.js",
+      "_paths-28a87002.js",
+      "_privateWallet-7a0cfca0.js",
+      "_token-c96bed7f.js",
+      "_config-af7f3a10.js",
+      "_contracts-69d01f63.js",
+      "_Modal-a8884379.js",
+      "_spaceInfo-b394211b.js",
+      "_base-652be6d9.js",
+      "_account-c0a26acd.js",
+      "_optimisticSpace-8b3fc51e.js",
+      "_subgraph-aa394bde.js",
+      "_graphql-582eebcc.js"
+    ]
+  },
+  "src/routes/plugins.svelte": {
+    "file": "pages/plugins.svelte-b1c95b42.js",
+    "src": "src/routes/plugins.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e78c39f1.js",
+      "_paths-28a87002.js",
+      "_NavButton-b22b61c0.js",
+      "_plugins-94e9a3e2.js",
+      "_contracts-69d01f63.js"
+    ]
+  },
+  "src/routes/recover.svelte": {
+    "file": "pages/recover.svelte-43d4dba6.js",
+    "src": "src/routes/recover.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e78c39f1.js",
+      "_account-c0a26acd.js",
+      "_privateWallet-7a0cfca0.js",
+      "_wallet-c826be1b.js",
+      "_WalletAccess-ec429ef9.js",
+      "_Modal-a8884379.js",
+      "_PanelButton-b24a8fdb.js",
+      "_spaceInfo-b394211b.js",
+      "_config-af7f3a10.js",
+      "_contracts-69d01f63.js",
+      "_paths-28a87002.js",
+      "_NavButton-b22b61c0.js",
+      "_base-652be6d9.js"
+    ]
+  },
+  "src/routes/debug.svelte": {
+    "file": "pages/debug.svelte-f0485da2.js",
+    "src": "src/routes/debug.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e78c39f1.js",
+      "_ConnectPanel-c0ecdc11.js",
+      "_myplanets-2a339ebc.js",
+      "_PanelButton-b24a8fdb.js",
+      "_NavButton-b22b61c0.js",
+      "_wallet-c826be1b.js",
+      "_contracts-69d01f63.js",
+      "_config-af7f3a10.js",
+      "_paths-28a87002.js",
+      "_token-c96bed7f.js",
+      "_spaceInfo-b394211b.js",
+      "_base-652be6d9.js",
+      "_account-c0a26acd.js",
+      "_privateWallet-7a0cfca0.js",
+      "_optimisticSpace-8b3fc51e.js",
+      "_subgraph-aa394bde.js",
+      "_graphql-582eebcc.js",
+      "_Blockie-6a051512.js",
+      "_Copiable-f9ca3aee.js",
+      "_Help-b968899e.js",
+      "_PlayCoin-69d24b1d.js",
+      "_url-09d70f02.js"
+    ]
+  },
+  "src/routes/stats.svelte": {
+    "file": "pages/stats.svelte-e775d18c.js",
+    "src": "src/routes/stats.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e78c39f1.js",
+      "_paths-28a87002.js",
+      "_NavButton-b22b61c0.js",
+      "_base-652be6d9.js",
+      "_config-af7f3a10.js",
+      "_subgraph-aa394bde.js",
+      "_contracts-69d01f63.js"
+    ]
+  },
+  "src/routes/help.svelte": {
+    "file": "pages/help.svelte-f4a51440.js",
+    "src": "src/routes/help.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e78c39f1.js",
+      "_paths-28a87002.js",
+      "_NavButton-b22b61c0.js"
+    ]
+  },
+  "src/routes/logs.svelte": {
+    "file": "pages/logs.svelte-b65c1725.js",
+    "src": "src/routes/logs.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e78c39f1.js",
+      "_paths-28a87002.js",
+      "_base-652be6d9.js",
+      "_config-af7f3a10.js",
+      "_subgraph-aa394bde.js",
+      "_optimisticSpace-8b3fc51e.js",
+      "_wallet-c826be1b.js",
+      "_Blockie-6a051512.js",
+      "_Coord-ca78105f.js",
+      "_playersQuery-3a795d59.js",
+      "_spaceInfo-b394211b.js",
+      "_privateWallet-7a0cfca0.js",
+      "_account-c0a26acd.js",
+      "_Copiable-f9ca3aee.js",
+      "_PlayCoin-69d24b1d.js",
+      "_NavButton-b22b61c0.js",
+      "_Modal-a8884379.js",
+      "_EventDetails-d65d00d0.js",
+      "_planets-78a3d361.js",
+      "_stores-2f0e30ab.js",
+      "_contracts-69d01f63.js",
+      "_graphql-582eebcc.js",
+      "_url-09d70f02.js"
+    ],
+    "css": [
+      "assets/pages/logs.svelte-21c71c7d.css"
+    ]
+  },
+  "src/routes/qr.svelte": {
+    "file": "pages/qr.svelte-433b74af.js",
+    "src": "src/routes/qr.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-e78c39f1.js",
+      "_qrs-ad47a527.js"
+    ],
+    "css": [
+      "assets/pages/qr.svelte-a606be47.css"
+    ]
+  },
+  "_vendor-e78c39f1.js": {
+    "file": "chunks/vendor-e78c39f1.js",
+    "css": [
+      "assets/vendor-4751242d.css"
+    ]
+  },
+  "_paths-28a87002.js": {
+    "file": "chunks/paths-28a87002.js"
+  },
+  "_url-09d70f02.js": {
+    "file": "chunks/url-09d70f02.js",
+    "imports": [
+      "_paths-28a87002.js",
+      "_config-af7f3a10.js"
+    ]
+  },
+  "_logo-8502b062.js": {
+    "file": "chunks/logo-8502b062.js",
+    "imports": [
+      "_base-652be6d9.js",
+      "_wallet-c826be1b.js",
+      "_privateWallet-7a0cfca0.js",
+      "_config-af7f3a10.js"
+    ]
+  },
+  "_stores-2f0e30ab.js": {
+    "file": "chunks/stores-2f0e30ab.js",
+    "imports": [
+      "_vendor-e78c39f1.js"
+    ]
+  },
+  "_wallet-c826be1b.js": {
+    "file": "chunks/wallet-c826be1b.js",
+    "imports": [
+      "_vendor-e78c39f1.js",
+      "_contracts-69d01f63.js",
+      "_config-af7f3a10.js",
+      "_paths-28a87002.js"
+    ]
+  },
+  "_account-c0a26acd.js": {
+    "file": "chunks/account-c0a26acd.js",
+    "imports": [
+      "_config-af7f3a10.js",
+      "_privateWallet-7a0cfca0.js",
+      "_vendor-e78c39f1.js",
+      "_paths-28a87002.js",
+      "_contracts-69d01f63.js",
+      "_wallet-c826be1b.js"
+    ]
+  },
+  "_config-af7f3a10.js": {
+    "file": "chunks/config-af7f3a10.js",
+    "imports": [
+      "_vendor-e78c39f1.js",
+      "_contracts-69d01f63.js"
+    ]
+  },
+  "_base-652be6d9.js": {
+    "file": "chunks/base-652be6d9.js",
+    "imports": [
+      "_vendor-e78c39f1.js"
+    ]
+  },
+  "_privateWallet-7a0cfca0.js": {
+    "file": "chunks/privateWallet-7a0cfca0.js",
+    "imports": [
+      "_config-af7f3a10.js",
+      "_vendor-e78c39f1.js",
+      "_wallet-c826be1b.js",
+      "_paths-28a87002.js",
+      "_contracts-69d01f63.js"
+    ]
+  },
+  "_contracts-69d01f63.js": {
+    "file": "chunks/contracts-69d01f63.js",
+    "imports": [
+      "_vendor-e78c39f1.js"
+    ]
+  },
+  "_WalletAccess-ec429ef9.js": {
+    "file": "chunks/WalletAccess-ec429ef9.js",
+    "imports": [
+      "_vendor-e78c39f1.js",
+      "_config-af7f3a10.js",
+      "_NavButton-b22b61c0.js",
+      "_PanelButton-b24a8fdb.js",
+      "_Modal-a8884379.js",
+      "_paths-28a87002.js",
+      "_wallet-c826be1b.js",
+      "_privateWallet-7a0cfca0.js"
+    ]
+  },
+  "_spaceInfo-b394211b.js": {
+    "file": "chunks/spaceInfo-b394211b.js",
+    "imports": [
+      "_contracts-69d01f63.js",
+      "_base-652be6d9.js",
+      "_vendor-e78c39f1.js",
+      "_account-c0a26acd.js"
+    ]
+  },
+  "_tokenClaim-d54d7ab7.js": {
+    "file": "chunks/tokenClaim-d54d7ab7.js",
+    "imports": [
+      "_planets-78a3d361.js",
+      "_playersQuery-3a795d59.js",
+      "_spaceInfo-b394211b.js",
+      "_vendor-e78c39f1.js",
+      "_account-c0a26acd.js",
+      "_wallet-c826be1b.js",
+      "_privateWallet-7a0cfca0.js",
+      "_base-652be6d9.js",
+      "_myprofile-37a6a38f.js",
+      "_fleets-86e67def.js",
+      "_optimisticSpace-8b3fc51e.js",
+      "_config-af7f3a10.js",
+      "_subgraph-aa394bde.js",
+      "_contracts-69d01f63.js"
+    ],
+    "css": [
+      "assets/tokenClaim-9310d53a.css"
+    ]
+  },
+  "_myplanets-2a339ebc.js": {
+    "file": "chunks/myplanets-2a339ebc.js",
+    "imports": [
+      "_wallet-c826be1b.js",
+      "_account-c0a26acd.js",
+      "_vendor-e78c39f1.js",
+      "_optimisticSpace-8b3fc51e.js",
+      "_spaceInfo-b394211b.js"
+    ]
+  },
+  "_NavButton-b22b61c0.js": {
+    "file": "chunks/NavButton-b22b61c0.js",
+    "imports": [
+      "_vendor-e78c39f1.js"
+    ]
+  },
+  "_PanelButton-b24a8fdb.js": {
+    "file": "chunks/PanelButton-b24a8fdb.js",
+    "imports": [
+      "_vendor-e78c39f1.js"
+    ]
+  },
+  "_Modal-a8884379.js": {
+    "file": "chunks/Modal-a8884379.js",
+    "imports": [
+      "_vendor-e78c39f1.js"
+    ]
+  },
+  "_ConnectPanel-c0ecdc11.js": {
+    "file": "chunks/ConnectPanel-c0ecdc11.js",
+    "imports": [
+      "_vendor-e78c39f1.js",
+      "_PanelButton-b24a8fdb.js",
+      "_NavButton-b22b61c0.js",
+      "_wallet-c826be1b.js",
+      "_token-c96bed7f.js",
+      "_privateWallet-7a0cfca0.js",
+      "_Blockie-6a051512.js",
+      "_Help-b968899e.js",
+      "_PlayCoin-69d24b1d.js",
+      "_url-09d70f02.js",
+      "_account-c0a26acd.js",
+      "_config-af7f3a10.js"
+    ]
+  },
+  "_myprofile-37a6a38f.js": {
+    "file": "chunks/myprofile-37a6a38f.js",
+    "imports": [
+      "_base-652be6d9.js",
+      "_wallet-c826be1b.js",
+      "_privateWallet-7a0cfca0.js",
+      "_account-c0a26acd.js",
+      "_spaceInfo-b394211b.js",
+      "_vendor-e78c39f1.js",
+      "_token-c96bed7f.js"
+    ]
+  },
+  "_PlayCoin-69d24b1d.js": {
+    "file": "chunks/PlayCoin-69d24b1d.js",
+    "imports": [
+      "_vendor-e78c39f1.js"
+    ]
+  },
+  "_optimisticSpace-8b3fc51e.js": {
+    "file": "chunks/optimisticSpace-8b3fc51e.js",
+    "imports": [
+      "_vendor-e78c39f1.js",
+      "_account-c0a26acd.js",
+      "_wallet-c826be1b.js",
+      "_config-af7f3a10.js",
+      "_spaceInfo-b394211b.js",
+      "_subgraph-aa394bde.js",
+      "_graphql-582eebcc.js",
+      "_contracts-69d01f63.js"
+    ]
+  },
+  "_MessageFlow-30f15648.js": {
+    "file": "chunks/MessageFlow-30f15648.js",
+    "imports": [
+      "_vendor-e78c39f1.js",
+      "_Modal-a8884379.js",
+      "_PanelButton-b24a8fdb.js",
+      "_base-652be6d9.js",
+      "_privateWallet-7a0cfca0.js"
+    ]
+  },
+  "_fleets-86e67def.js": {
+    "file": "chunks/fleets-86e67def.js",
+    "imports": [
+      "_base-652be6d9.js",
+      "_wallet-c826be1b.js",
+      "_config-af7f3a10.js",
+      "_privateWallet-7a0cfca0.js",
+      "_vendor-e78c39f1.js",
+      "_account-c0a26acd.js",
+      "_optimisticSpace-8b3fc51e.js",
+      "_spaceInfo-b394211b.js"
+    ]
+  },
+  "_Blockie-6a051512.js": {
+    "file": "chunks/Blockie-6a051512.js",
+    "imports": [
+      "_vendor-e78c39f1.js",
+      "_Copiable-f9ca3aee.js"
+    ],
+    "css": [
+      "assets/Blockie-861a6711.css"
+    ]
+  },
+  "_plugins-94e9a3e2.js": {
+    "file": "chunks/plugins-94e9a3e2.js",
+    "imports": [
+      "_contracts-69d01f63.js",
+      "_vendor-e78c39f1.js"
+    ]
+  },
+  "_planets-78a3d361.js": {
+    "file": "chunks/planets-78a3d361.js",
+    "imports": [
+      "_vendor-e78c39f1.js",
+      "_optimisticSpace-8b3fc51e.js",
+      "_wallet-c826be1b.js",
+      "_account-c0a26acd.js",
+      "_spaceInfo-b394211b.js"
+    ]
+  },
+  "_token-c96bed7f.js": {
+    "file": "chunks/token-c96bed7f.js",
+    "imports": [
+      "_vendor-e78c39f1.js",
+      "_spaceInfo-b394211b.js",
+      "_optimisticSpace-8b3fc51e.js",
+      "_wallet-c826be1b.js"
+    ]
+  },
+  "_Help-b968899e.js": {
+    "file": "chunks/Help-b968899e.js",
+    "imports": [
+      "_vendor-e78c39f1.js"
+    ]
+  },
+  "_playersQuery-3a795d59.js": {
+    "file": "chunks/playersQuery-3a795d59.js",
+    "imports": [
+      "_subgraph-aa394bde.js",
+      "_graphql-582eebcc.js",
+      "_wallet-c826be1b.js",
+      "_vendor-e78c39f1.js",
+      "_account-c0a26acd.js"
+    ]
+  },
+  "_subgraph-aa394bde.js": {
+    "file": "chunks/subgraph-aa394bde.js",
+    "imports": [
+      "_vendor-e78c39f1.js",
+      "_config-af7f3a10.js"
+    ]
+  },
+  "_Copiable-f9ca3aee.js": {
+    "file": "chunks/Copiable-f9ca3aee.js",
+    "imports": [
+      "_vendor-e78c39f1.js"
+    ]
+  },
+  "_graphql-582eebcc.js": {
+    "file": "chunks/graphql-582eebcc.js",
+    "imports": [
+      "_base-652be6d9.js",
+      "_vendor-e78c39f1.js"
+    ]
+  },
+  "_Coord-ca78105f.js": {
+    "file": "chunks/Coord-ca78105f.js",
+    "imports": [
+      "_vendor-e78c39f1.js",
+      "_url-09d70f02.js",
+      "_account-c0a26acd.js",
+      "_Copiable-f9ca3aee.js"
+    ]
+  },
+  "_EventDetails-d65d00d0.js": {
+    "file": "chunks/EventDetails-d65d00d0.js",
+    "imports": [
+      "_vendor-e78c39f1.js",
+      "_wallet-c826be1b.js",
+      "_privateWallet-7a0cfca0.js",
+      "_Blockie-6a051512.js",
+      "_Coord-ca78105f.js",
+      "_spaceInfo-b394211b.js",
+      "_PlayCoin-69d24b1d.js",
+      "_planets-78a3d361.js"
+    ]
+  },
+  "_qrs-ad47a527.js": {
+    "file": "chunks/qrs-ad47a527.js"
+  }
+}
