@@ -33,7 +33,7 @@
     "chai": "^4.3.6",
     "chai-ethers": "^0.0.1",
     "conquest-eth-common": "workspace:*",
-    "conquest-eth-contracts": "https://ipfs.io/ipfs/QmTc8kLjYicBEfNGQjvpUyjj5x3CUAZkdB9CDZNfh5VYcF/conquest-eth-contracts-0.1.0.tgz",
+    "conquest-eth-contracts": "https://ipfs.io/ipfs/QmPBxudVeN8rx5fdymXWoxBLn2v47LFSjno8JPbPtinKQw/conquest-eth-contracts-0.1.0.tgz",
     "cross-env": "^7.0.2",
     "dotenv": "^16.0.0",
     "eslint": "^8.10.0",
