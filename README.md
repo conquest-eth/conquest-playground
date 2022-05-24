@@ -48,8 +48,8 @@ This command will bring 5 shells up
 
 1. docker-compose: running the ethereum node, ipfs node and subgraph node.
 2. common-lib: watching for changes and recompiling to js.
-3. web app: watching for changes. Hot Module Replacement enabled. (will reload on common-lib changes)
-4. contracts: watching for changes. For every code changes, contract are redeployed, with proxies keeping their addresses.
+3. web app
+4. contracts
 5. subgraph: watch for code or template changes and redeploy.
 
 Once docker-compose is running, you can stop the other shells and restart them if needed via
@@ -80,16 +80,6 @@ Some of them relies on [./\_scripts.js](./_scripts.js) to allow parameterizing i
 As a standard lifecycle npm script, it is executed automatically upon install. It generate various config file for you, including vscode files.
 <br/><br/>
 
-`pnpm setup`
-
-this will update name of the project (by default "jolly-roger") to be the name of the folder (See `set-name` command) and install the dependencies (`pnpm install`)
-<br/><br/>
-
-`pnpm set-name [<new name>]`
-
-This will replace every instance of `jolly-roger` (or whatever name was set) to `new name` (if specified, otherwise it use the folder name)
-If your name is not unique and conflict with variable name, etc... this will not be safe to execute.
-<br/><br/>
 
 `pnpm common:dev`
 
@@ -138,46 +128,16 @@ This will deploy subgraph on the network specified. If network is a live network
 This will spawn a vite dev server for the webapp, connected to the specified network
 <br/><br/>
 
-`pnpm web:build [<network>]` or `pnpm build [<network>]`
+For network you need to setup the env variable for its chain, like :
 
-This will build a static version of the web app for the specified network.
+```
+ETH_NODE_URI_GNOSIS_CHAIN=https://...
+```
 
-If no network are specified it will fetch from the env variable `NETWORK_NAME`. If no such env variable is set, it will try to fetch the git's branch name.
-<br/><br/>
 
 `pnpm web:serve`
 
 This will serve the static file as if on an ipfs gateway.
-<br/><br/>
-
-`pnpm web:build:serve [<network>]`
-
-this both build and serve the web app.
-<br/><br/>
-
-`pnpm web:deploy <network>`
-
-This build and deploy the web app on ipfs for the network specified.
-
-You ll need the following env variables setup :
-
-- `IPFS_DEPLOY_PINATA__API_KEY` │
-- `IPFS_DEPLOY_PINATA__SECRET_API_KEY`
-
-<br/><br/>
-
-`pnpm deploy [<network>]`
-
-This will deploy all (contracts, subgraph and web app). See below for more details.
-
-If no network are specified it will fetch from the env variable `NETWORK_NAME`. If no such env variable is set, it will try to fetch the git's branch name.
-<br/><br/>
-
-`pnpm deploy:noweb [<network>]`
-
-This will deploy all (contracts, subgraph) except web app. See below for more details.
-
-If no network are specified it will fetch from the env variable `NETWORK_NAME`. If no such env variable is set, it will try to fetch the git's branch name.
 <br/><br/>
 
 `pnpm stop`
